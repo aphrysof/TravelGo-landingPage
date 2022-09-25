@@ -1,0 +1,24 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 3em;
+  position: relative;
+  z-index: 1;
+}
+ul {
+  width: 400px;
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+}
+ul > li {
+  color: #ffffff;
+}
+.profile {
+  display: flex;
+  align-items: center;
+}
+.profile > img {
+  margin-left: 20px;
+}

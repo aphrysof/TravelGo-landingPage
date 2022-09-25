@@ -1,0 +1,33 @@
+.dest > h1 {
+  text-align: center;
+  margin: 2em 0;
+}
+.destination {
+  max-width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.cities {
+  /* max-width: 50%; */
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  padding: 2em;
+}
+.place {
+  width: 100%;
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.08);
+  border-radius: 15px;
+}
+.detail {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.icon {
+  height: 30px;
+  width: 30px;
+  margin-right: 1em;
+}

@@ -1,0 +1,114 @@
+.visit {
+  max-width: 100%;
+  padding: 50px 0;
+}
+.title {
+  text-align: center;
+}
+.more--details {
+  width: 80%;
+  margin: 100px auto 0;
+  display: flex;
+  justify-content: space-between;
+}
+.information {
+  width: 40%;
+  color: #5e6282;
+}
+.items {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+.item_details {
+  margin-left: 50px;
+}
+.items > img {
+  height: 60px;
+}
+.item_details > h3 {
+  font-size: 1rem;
+}
+
+.progress {
+  width: 40%;
+}
+.progress_card {
+  width: 70%; /*70% width of the parent*/
+  border-radius: 25px;
+  box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset,
+    rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+  position: relative;
+  width: fit-content;
+}
+.inner_details {
+  padding: 10px;
+}
+.trip__details {
+  display: grid;
+  /* align-items: center; */
+  gap: 20px;
+  margin: 10px;
+}
+.trip__details > span,
+.going > span {
+  color: #84829a;
+}
+.ongoing {
+  display: flex;
+  justify-content: space-between;
+}
+.progress_bar {
+  /* width: 40%; */
+  background: #ffffff;
+  box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px,
+    rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px,
+    rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+  border-radius: 18px;
+  display: flex;
+  align-items: center;
+  position: relative;
+  width: 50%;
+  bottom: 180px;
+  left: 190px;
+  padding: 20px;
+}
+.progress_bar > img {
+  height: 50px;
+}
+label {
+  display: block;
+}
+.progress_details {
+  margin-left: 10px;
+}
+.progress_details > h5,
+.progress_details > h4,
+.trip__details > h4 {
+  margin: 0;
+}
+.progress_details > h5 {
+  font-weight: normal;
+  opacity: 50%;
+}
+.progress_details > h4 {
+  margin: 5px 0;
+}
+.icons > img {
+  margin-right: 20px;
+}
+progress {
+  -webkit-appearance: none;
+}
+
+::-webkit-progress-bar {
+  background-color: white;
+  height: 10px;
+  border-radius: 25px;
+  border: 1px solid #5e6282;
+  margin-top: 10px;
+}
+::-webkit-progress-value {
+  background-color: #8a79df;
+}

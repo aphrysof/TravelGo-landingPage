@@ -1,0 +1,50 @@
+header {
+  background-image: url("../../assets/banner.png");
+  background-repeat: no-repeat;
+  background-position: cover;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 30px 0;
+}
+header::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  top: 0;
+  height: 800px;
+  background: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 0.81) 0%,
+    rgba(72, 72, 72, 0) 31.25%,
+    rgba(158, 158, 158, 0) 77.6%,
+    #ffffff 85.42%
+  );
+}
+button {
+  width: 220px;
+  padding: 0.8em 1.3em;
+  background-color: #00a651;
+  border-radius: 10px;
+  color: #fff;
+  border: 1px solid #00a651;
+  font-size: 1.3rem;
+  cursor: pointer;
+}
+.banner {
+  max-width: 100%;
+  width: 40%;
+  margin: 100px auto;
+  color: #fff;
+  text-align: center;
+}
+.banner p {
+  font-size: 0.935rem;
+  margin-bottom: 14px;
+}
+.banner h1 {
+  font-size: 3rem;
+}

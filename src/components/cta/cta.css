@@ -1,0 +1,53 @@
+.cta__container {
+  max-width: 100%;
+}
+.cta {
+  width: 80%;
+  margin: 100px auto;
+  background-image: url("../../assets/start.png");
+  background-position: bottom right;
+  background-repeat: no-repeat;
+}
+.cta__details {
+  width: 80%;
+  margin: 100px auto;
+  background-color: #9fffec;
+  border: 1px solid #9fffec;
+  border-top-left-radius: 130px;
+  position: relative;
+}
+.cta__detail {
+  width: 80%;
+  text-align: center;
+  margin: 60px auto;
+}
+.cta__detail > img {
+  position: absolute;
+  top: -30px;
+  /* bottom: 43px; */
+  right: -30px;
+}
+.cta__detail > h2 {
+  color: #5e6282;
+}
+.subscribe {
+  margin: 80px auto;
+}
+.subscribe > input {
+  width: 300px;
+  padding: 15px;
+  outline: none;
+  border-radius: 5px;
+  border: 1px solid white;
+  text-indent: 30px;
+}
+.subscribe > button {
+  width: 120px;
+  font-size: 1em;
+  margin-left: 20px;
+}
+.subscribe > img {
+  position: absolute;
+  pointer-events: none;
+  padding: 15px;
+}

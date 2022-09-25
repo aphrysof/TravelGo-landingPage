@@ -1,0 +1,39 @@
+.footer {
+  max-width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 80px;
+}
+.footer_1 > img {
+  margin-left: 10px;
+}
+.footer_1,
+.footer_3 {
+  width: 20%;
+  color: #5e6282;
+}
+.footer_2 {
+  width: 60%;
+  display: flex;
+}
+.footer_2 > ul {
+  display: block;
+}
+.footer_2 > ul > li {
+  color: #5e6282;
+  margin: 20px 0;
+}
+.footer_2 > ul > li:first-child {
+  font-weight: bold;
+  margin-bottom: 30px;
+  font-size: 24px;
+  color: #000000;
+}
+.download {
+  display: flex;
+}
+.fta {
+  color: #5e6282;
+  text-align: center;
+}
